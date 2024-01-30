@@ -52,7 +52,7 @@ p {
 	color: white;
 	background-color: transparent;
 	border: 2px solid crimson;
-	font-size: 2rem;
+	font-size: 3rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
 	margin-top: 30px;
@@ -428,12 +428,12 @@ p {
 	height: 100%;
 	width: 100%;
 	position: relative;
-	border: 10px solid white;
+	border: 0px solid white;
 }
 #about .col-left .about-img::after {
 	content: '';
 	position: absolute;
-	left: -33px;
+	left: 33px;
 	top: 19px;
 	height: 98%;
 	width: 98%;
